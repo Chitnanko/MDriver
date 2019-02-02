@@ -7,6 +7,7 @@
 
 ![fb_img_15490932528618770](https://user-images.githubusercontent.com/47249864/52162762-14479280-2707-11e9-81d7-3dfead4242b7.jpg)
 
-![Uploading FB_IMG_15490932600462531.jpg…]()
+![fb_img_15490932600462531](https://user-images.githubusercontent.com/47249864/52162805-8ae49000-2707-11e9-9fdc-5675cbf852ee.jpg)
+
 
 
