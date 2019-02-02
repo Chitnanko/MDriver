@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1e6e5">
+    <LinearLayout
+        android:id="@+id/phone_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/driver_photo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:onClick="selectImage"
+            android:background="@drawable/cycle"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edit_name"
+                    style="@style/editStyle"
+                    android:background="@drawable/edittext_style"
+                    android:hint="Name"
+                    />
+                <EditText
+                    android:id="@+id/edit_phone"
+                    style="@style/editStyle"
+                    android:background="@drawable/edittext_style"
+                    android:hint="Phone Number"
+                    android:inputType="phone"/>
+                <EditText
+                    android:id="@+id/edit_carNo"
+                    android:background="@drawable/edittext_style"
+                    style="@style/editStyle"
+                    android:hint="Car No"/>
+                <EditText
+                    android:id="@+id/edit_carType"
+                    android:background="@drawable/edittext_style"
+                    style="@style/editStyle"
+                    android:hint="Car Type"/>
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_continue"
+                style="@style/button_style"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:background="@drawable/b_style"
+                android:text="Continue"/>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/code_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+        <EditText
+            android:id="@+id/edit_code"
+            android:background="@drawable/edittext_style"
+            style="@style/editStyle"
+            android:inputType="number"
+            android:hint="code"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_verify"
+            android:background="@drawable/button_style"
+            style="@style/button_style"
+            android:text="verify"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_resend"
+            android:background="@drawable/button_style"
+            style="@style/button_style"
+            android:layout_margin="10dp"
+            android:text="resend"/>
+    </LinearLayout>
+</LinearLayout>

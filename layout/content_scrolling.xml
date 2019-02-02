@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_scrolling">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="M-Taxi \n\n Version 1.0.0\n\n Developer:\t Mg Chit Nann Ko
+        \n\t\t\t\t\t\t\t\tMg Nay Ye Lin\n\t\t\t\t\t\t\t\t Mg Myat Noe Aung
+        \nApp-Objective:\n\n Our application is aim as written to travellers and visitor
+to convenience and easy.As traveller, their safe as possible because their route was saved to the server of
+M-Taxi.So, as server,can sue to the driver when the customer meet the drangers during rides his car.And the customer knows the distance and duration of the trop." />
+
+
+</android.support.v4.widget.NestedScrollView>
